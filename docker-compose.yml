@@ -26,9 +26,9 @@ services:
      # - MAILNAME=
      # # set this to any value to disable ipv6
      # - DISABLE_IPV6=
-     # # Generic SMTP Relay
-     # - SMARTHOST_ADDRESS=
-     # - SMARTHOST_PORT=
-     # - SMARTHOST_USER=
-     # - SMARTHOST_PASSWORD=
-     # - SMARTHOST_ALIASES=
+     # Generic SMTP Relay
+     - SMARTHOST_ADDRESS=10.100.140.117
+     - SMARTHOST_PORT=25
+    #  - SMARTHOST_USER=
+    #  - SMARTHOST_PASSWORD=
+     - SMARTHOST_ALIASES=*@dbkl.gov.my
